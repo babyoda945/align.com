@@ -1,0 +1,124 @@
+body{ 
+  background-color: #181818;
+    
+   
+
+
+
+}
+
+  nav {
+      background-color: #161616;
+      background-blend-mode: multiply;
+      position: relative;bottom:8px ;
+      margin: 0px;
+      padding: 1px;
+      border-bottom-right-radius: 50px;
+      border-bottom-left-radius: 50px;
+    }
+   
+
+
+
+
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    li {
+      margin: 0;
+    }
+
+    a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      
+      
+
+    }
+    a:hover{
+        text-transform: capitalize;
+        color: rgb(99, 197, 0);
+            background:linear-gradient(to bottom,#161616,#016111),#00f529;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    
+  h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  h3{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .lvl1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: larger;
+  }
+   .lvl2{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: larger;
+   }
+    .lvl3{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: larger;
+    }
+    h2{
+      color: rgb(255, 255, 255);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+
+
+
+    }
+    p{
+      text-align: center;
+      font-size: larger;
+      color: rgb(255, 255, 255);
+
+
+    }
+    button{
+
+        color: #ffffff;
+        background-color: #26bb3efa;
+        border-radius: 5px;
+        border-color: #02ff41;
+        padding: 12px;
+        margin: 100px;
+        position: relative;left: 150px;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        font-size: larger;
+        position: relative;left: 525px;
+    }
+    button:hover{
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        background-color: #2aad21;
+        border-color: #209e35;
+
+
+    }
+    .p5{
+      color: rgb(255, 255, 255);
+      font-size: large;
+      text-align: center;
+      position: relative;top: 85px;
+
+
+    }
+    

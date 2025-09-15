@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="5.css">
+  <title>Contact – Align</title>
+</head>
+<body>
+    
+
+  <h1>Contact Me</h1>
+ <form action="https://formspree.io/f/xwpnjpew" method="POST">
+
+ 
+
+  
+    <label for="name">Your Name:</label><br />
+    <input type="text" id="name" name="name" required /><br /><br />
+
+    <label for="email">Your Email:</label><br />
+    <input type="email" id="email" name="email" required /><br /><br />
+
+    <label for="message"></label><br />
+    <textarea id="message" placeholder="your massage" name="message" rows="5" required></textarea><br /><br />
+
+    <button type="submit">Send Message</button>
+  </form>
+
+  <hr />
+
+  <h2>Contact Info</h2>
+  <p>Email: <a href="mailto:yasiraliraza40@gmail.com">yasiraliraza40@gmail.com</a></p>
+  <p>Phone: <a href="tel:+1234567890">+92 i dont know</a></p>
+  <p>Location: Baluchistan, Pakistan</p>
+
+  <h2>Follow Me</h2>
+  <p>
+    <a href="https://instagram.com/@yasi.raliraza" target="_blank">Instagram</a><br />
+    <a href="https://tiktok.com/@yasiraliraza0" target="_blank">tiktok</a>
+  </p>
+
+  <footer>
+    <p>Technology of Align. All rights reserved © <span id="year"></span></p>
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+  <script src="contacts.js"></script>
+
+</body>
+</html>

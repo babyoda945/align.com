@@ -1,0 +1,64 @@
+body{
+    background:linear-gradient(320deg,#8f05ff,#013464,#4c00ff);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
+
+
+
+}
+fieldset{
+    position: relative;top: 50px;left: 500px;
+    height: 500px;
+    width: min-content;
+    border-radius: 50px;
+    width: 70px;
+   
+    
+   
+    
+
+
+
+
+}
+legend{
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+
+
+
+}
+input{
+    margin: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    width: 250px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: #8c00ff00;
+    font-size: small;
+    
+
+    
+
+
+
+}
+button{
+    background-color: chartreuse;
+    margin: 60px;
+    padding: 14px;
+    border-radius: 15px;
+    border-color: chartreuse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    font-size: medium;
+    position: relative;left: 69px;
+
+
+
+}
+
+

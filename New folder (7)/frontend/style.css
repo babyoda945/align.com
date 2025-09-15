@@ -1,0 +1,214 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background-image: url('https://wallpaperaccess.com/full/506927.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  image-rendering: smooth;
+  background-color: #111111;
+  
+}
+
+h1{
+    position: relative;top: 150px;
+    color: rgb(255, 255, 255);
+    margin: 50px;
+
+
+
+}
+p{
+    padding: px;
+    color: rgb(255, 255, 255);
+    margin: 50px;
+    position: relative;top: 125px;
+    font-size: larger;
+
+
+
+}
+  nav {
+      background-color: #161616;
+      background-blend-mode: multiply;
+      position: relative;bottom:8px ;
+      margin: 0px;
+      padding: 1px;
+      border-bottom-right-radius: 50px;
+      border-bottom-left-radius: 50px;
+    }
+   
+
+
+
+
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    li {
+      margin: 0;
+    }
+
+    a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+      
+      
+
+    }
+    a:hover{
+        text-transform: capitalize;
+        color: rgb(99, 197, 0);
+            background:linear-gradient(to bottom,#161616,#016111),#00f529;
+        border-bottom-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+    }
+    h1{
+        color: aliceblue;
+        font-size: 50px;
+        font-weight: 10;
+        font: em roboto;
+
+
+
+
+    }
+    button{
+        color: #ffffff;
+        background-color: #26bb3efa;
+        border-radius: 5px;
+        border-color: #02ff41;
+        padding: 12px;
+        margin: 100px;
+        position: relative;left: 150px;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        font-size: larger;
+        
+
+
+
+    }
+    button:hover{
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        background-color: #2aad21;
+        border-color: #209e35;
+    }
+    h2{
+        color: rgb(255, 255, 255);
+        padding: 45px;
+        margin: 5px;
+        text-align: center;
+        font-size: 40px;
+        background-color: rgb(20, 20, 20);
+        line-height: 15px;
+        background-origin: padding-box;
+        position: relative;top: 76px;
+
+
+    }
+    .image-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.image-row figure {
+  text-align: center;
+  width: 200px;
+}
+
+.image-row img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-row figcaption {
+  margin-top: 8px;
+  font-size: 0.9em;
+  color: #ffffff;
+}
+footer{
+  width: 100%;
+background-color: #141414;
+color: white;
+text-align: center;
+padding: 10px;
+line-height: 150px;
+}
+footer p{
+  position: relative;top: 50px;
+
+
+
+
+}
+.nd-button{
+  color: #ffffff;
+  position: relative;left: 526px;
+
+
+
+}
+#popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: #fff;
+  color: #333;
+  padding: 30px;
+  border-radius: 8px;
+  width: 500px;
+  max-width: 90%;
+  margin: 100px auto;
+  position: relative;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+#close-popup {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
